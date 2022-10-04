@@ -8,10 +8,20 @@ all valid PRs will be merged .
 a software to measure the typing speed of user.
 currently it takes sentences from only one file.
 
-issues which need help :-
+pushpinSteps to contribute.
 
- 1) Size of the window is not relative (the text and UI is not clearly visible.
- 
- 2) Takes sentences only from a single file. need to take random sentences from different files.
- 
- 3) UI improvemennts needed to make it look more dynamic.
+1.Register your GitHub ID on Hackoberfest Website
+
+2.Fork this repository.
+
+3.Make the required Changes.(make sure there are no conflicts with existing codes).
+
+4.Send a Pull request
+
+5.I'll take a look at the change and then merge them with the master branch.
+
+Happy coding fellas!! two_heartssparkles
+Don't worry newcomers!! Everyone's PRs will be merged, just follow the steps properly!!
+
+raised_hands Make this your first step to development and open source. Get the confidence you require!!
+All of your suggestions are welcome!!
