@@ -11,7 +11,7 @@ How you Can contribute.
 
 3.Make the required Changes.(make sure there are no conflicts with existing codes).
 
-4.Add the changes made to staging area ( git add .) (can add individual files using git add [filename]).
+4.Add the changes made to staging area ( git add {filename} ) (can add all files at once using git add . ).
 
 5.Commit the changes once finalized (git commit -m "write a meaningful commit message")
 
