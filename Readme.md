@@ -1,24 +1,24 @@
 TYPING SPEED TEST PYTHON.
 
-
-open to all for contributions.
-all valid PRs will be merged .
-(beginner-friendly) and easy first contribution.
-
-a software to measure the typing speed of user.
+A program to measure the typing speed of user.
 currently it takes sentences from only one file.
 
-Steps to contribute.
+How you Can contribute.
 
-1.Register your GitHub ID on Hackoberfest Website
+1.Fork this repository.
 
-2.Fork this repository.
+2.Clone the forked repo (git clone "link of the forked repo")
 
 3.Make the required Changes.(make sure there are no conflicts with existing codes).
 
-4.Send a Pull request
+4.Add the changes made to staging area ( git add .) (can add individual files using git add [filename]).
 
-5.I'll take a look at the change and then merge them with the master branch.
+5.Commit the changes once finalized (git commit -m "write a meaningful commit message")
+
+6.Push the commited changes to the forked repo (git push )
+
+7.Create a Pull request
+
 
 Happy coding fellas!!
 Don't worry newcomers!! Everyone's PRs will be merged, just follow the steps properly!!
