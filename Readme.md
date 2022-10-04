@@ -8,7 +8,7 @@ all valid PRs will be merged .
 a software to measure the typing speed of user.
 currently it takes sentences from only one file.
 
-pushpinSteps to contribute.
+Steps to contribute.
 
 1.Register your GitHub ID on Hackoberfest Website
 
@@ -20,8 +20,8 @@ pushpinSteps to contribute.
 
 5.I'll take a look at the change and then merge them with the master branch.
 
-Happy coding fellas!! two_heartssparkles
+Happy coding fellas!!
 Don't worry newcomers!! Everyone's PRs will be merged, just follow the steps properly!!
 
-raised_hands Make this your first step to development and open source. Get the confidence you require!!
+Make this your first step to development and open source. Get the confidence you require!!
 All of your suggestions are welcome!!
