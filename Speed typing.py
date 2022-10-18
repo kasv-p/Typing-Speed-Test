@@ -67,8 +67,8 @@ class Game:
             self.end = True
             print(self.total_time)
 
-            self.results = 'Time:'+str(round(self.total_time)) + " secs Accuracy:" + str(
-                round(self.accuracy)) + "%" + ' Wpm: ' + str(round(self.wpm))
+           
+            self.results = f'Time: {str(round(self.total_time))} secs Accuracy: {str(round(self.accuracy))} % {str(round(self.wpm))} '
 
             # draw icon image
             self.time_img = pygame.image.load('icon.png')
