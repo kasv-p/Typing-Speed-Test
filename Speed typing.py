@@ -1,8 +1,10 @@
+from urllib import response
 import pygame
 from pygame.locals import *
 import sys
 import time
 import random
+import requests as req
 
 
 class Game:
@@ -42,10 +44,19 @@ class Game:
         pygame.display.update()
 
     def get_sentence(self):
-        f = open('sentences.txt').read()
-        sentences = f.split('\n')
-        sentence = random.choice(sentences)
+        """Generate a sentence with random words using an API"""
+        n = random.randint(12 , 18)
+        #api for generating random words
+        api_url = f"https://random-words-api.herokuapp.com/w?n={n}"
+        response = req.get(api_url)
+        word_list = response.json()
+        sentence = ""
+        #create a sentence with the generated random words
+        for word in word_list:
+            sentence += word + " "
+        #return the sentence
         return sentence
+
 
     def show_results(self, screen):
         if(not self.end):
