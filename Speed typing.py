@@ -1,6 +1,7 @@
 from urllib import response
 import pygame
 from pygame.locals import *
+from pygame import mixer
 import sys
 import time
 import random
@@ -35,6 +36,10 @@ class Game:
 
         self.screen = pygame.display.set_mode((self.w, self.h))
         pygame.display.set_caption('Type Speed test')
+
+        mixer.init()
+        mixer.music.load("./music.wav")
+        mixer.music.play()
 
     def draw_text(self, screen, msg, y, fsize, color):
         font = pygame.font.Font(None, fsize)
