@@ -11,7 +11,7 @@ import requests as req
 class Game:
 
     def __init__(self):
-        self.w = 750
+        self.w = 500
         self.h = 500
         self.reset = True
         self.active = False
